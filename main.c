@@ -94,7 +94,7 @@ int main(){
              y=x+y;
               switch (y)  //y=50
               {         case 60:
-                          if (c25-->=0 && c10-->=1 && c5-->=1)
+                          if (c25>=0 && c10>=1 && c5>=1)
                              {printf("change is RS.25 + RS.10 + RS.5");
                               printf("stamp is dispensed");
                               --c25;
