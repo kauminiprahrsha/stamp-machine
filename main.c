@@ -76,7 +76,7 @@ int main(){
 
                           //y=25
                        case 40:
-                         if  (s15>0 && c10>=0)
+                         if  (s15>0 && c10>0)
                             {printf("change is RS.10 ");
                              printf("stamp is dispensed");
                              --s15;
@@ -94,9 +94,9 @@ int main(){
              y=x+y;
               switch (y)  //y=50
               {         case 60:
-                          if (c25>=0 && c10>=1 && c5>=1)
+                          if (c25>0 && c10>0 && c5>0)
                              {printf("change is RS.25 + RS.10 + RS.5");
-                              printf("stamp is dispensed");
+                              printf("\n stamp is dispensed");
                               --c25;
                               --c10;
                               --c5;
@@ -107,7 +107,7 @@ int main(){
                         case 35:
                           if (s10>0 && c10>0 && c5>0)
                              {printf("change is RS.10 + RS.5 ");
-                              printf("stamp is dispensed");
+                              printf("\n stamp is dispensed");
                               --s10;
                               --c10;
                               --c5;
@@ -122,7 +122,7 @@ int main(){
                          case 20:
                            if(s10>0 )
                              {printf("change is 0");
-                              printf("stamp is dispensed");
+                              printf("\n stamp is dispensed");
                               ++c10;
                               --s10;}
                            else
